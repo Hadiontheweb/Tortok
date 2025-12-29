@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    height: 80px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+header .logo  {
+    color: #fff;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+.header-btn  a{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.header-btn:hover a{
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    color: #000000;
+    background-color: rgb(112, 216, 112);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero{
+    background-color: #191919;
+    padding: 170px;
+
+}
+
+.hero-title h1 {
+    font-size: 90px;
+    color: #ffffff;
+    line-height: 1.5;
+}
+.effective{
+    color: rgb(112, 216, 112);
+}
+.creative{
+    font-style: italic;
+}
+.agency{
+    color: transparent;
+    -webkit-text-stroke: #63f359 1px;
+}
+
+.hero-desc {
+    max-width: ;width: 100%;
+    margin-top: 20px;
+    color: #d2d2d2;
+    font-size: 20px;
+    line-height: 1.5;
+}
+.hero-logos {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.hero-logos img {
+    width: 100px;
+    height: 50px;
+}
+
+
+
+.about-company{
+    display: flex;
+    padding: 50px 100px;
+    background-color: #222222;
+    gap: 50px;
+
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    color: #fff;
+}
+
+.counter {
+    display: flex;
+    gap: 20px;
+    width: 800px;
+}
+
+.btn{
+    padding: 10px;
+    width: 100px;
+}
+
+.service-section {
+    background-color: #141414;
+    padding: 50px;
+    color: #d2d2d2;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.service-card {
+    background: #141414;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-6px);
+}
+
+.service-image {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+
+.service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.service-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 20px;
+    border-top: 1px solid #1f1f1f;
+}
+
+.service-title {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.service-link {
+    color: #00ff88;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+body{
+
+    background-color: rgb(30, 30, 30);
+
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.no1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.row1,.row2 {
+    
+    width: 450px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: aliceblue;
+
+}
+.row1 h3{
+background-color: transparent;
+border: 2px solid lab(64.45% -60.63 55.35);
+width: 150px;
+text-align: center;
+border-radius: 20px;
+padding: 5px;
+color: rgb(44, 199, 44);
+}
+
+.italic {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.row1 h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+
+.no2{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.divider {
+    width: 1px;
+    height: 100px;
+    background-color: rgb(118, 118, 118);
+    margin-right: 20px;
+}
+
+.no2-row {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: end;
+    
+}
+
+.no2-row h3{
+background-color: rgb(56, 56, 56);
+padding: 10px;
+text-align: center;
+border-radius: 100px;
+color: rgb(136, 136, 136);
+
+}
+
+.no2-row button{
+    font-size: 30px;
+    color: aliceblue;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px dashed grey;
+    border-radius: 50px;
+}
+
+.div1{
+    margin-top: 100px;
+}
+
+
+.div2{
+    margin-top: 200px;
+}
+.div3{
+    margin-top: 300px;
+}
+.working-process {
+  padding:50px;
+}
